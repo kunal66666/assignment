@@ -1,0 +1,80 @@
+# Kudosport Project Setup Guide
+
+This project consists of a backend server and a frontend application. Follow these steps to get the project up and running locally.
+
+## Prerequisites
+- Node.js
+- MongoDB
+- React
+- Git
+
+## Backend Setup
+
+1. Clone the repository and navigate to the project directory:
+```bash
+git clone https://github.com/kunal66666/assignment.git
+cd assign
+```
+
+2. Install backend dependencies:
+```bash
+npm install
+```
+
+3. Start the backend server:
+```bash
+node server.js
+```
+
+You should see the following messages in the console:
+- "Server running on port 5000"
+- "MongoDB Connected"
+
+These messages indicate that your backend is successfully running and connected to the database.
+
+## Frontend Setup
+
+1. Open a new terminal 
+
+2. Navigate to the frontend directory:
+```bash
+cd kudsoport-frontend
+```
+
+3. Install frontend dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+The frontend application will be available at: http://localhost:5173/
+
+## Verification
+- Backend server should be running on port 5000
+- Frontend development server should be accessible at http://localhost:5173/
+- MongoDB should be connected successfully
+
+## Project Structure
+```
+project-root/
+├── assign/               # Backend directory
+│   ├── node_modules/
+│   ├── server.js
+│   └── package.json
+└── kudsoport-frontend/  # Frontend directory
+    ├── node_modules/
+    ├── src/
+    └── package.json
+```
+
+## Troubleshooting
+- Make sure MongoDB is running locally
+- Check if all required ports (5000 and 5173) are available
+- Ensure all dependencies are properly installed
+
+## Support
+For any issues or questions, please open an issue in the repository.
